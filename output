@@ -1,5 +1,6 @@
 theta=0 truees nct-4.821491337826489
-theta=-1 truees nct-4.821491337826489
+theta=-1 truees nct-9.724243862519943
+theta=-3 truees nct 
 
 df=3 theta=0 T=100
 >> para_es_coverage
@@ -31,6 +32,41 @@ nonparacilength =
     4.0359
     
     
+    
+    
+    
+ df=3 theta=-1 T=100   
+ >> para_es_coverage
+
+para_es_coverage =
+
+    0.6030
+    0.6180
+
+>> nonpara_es_coverage
+
+nonpara_es_coverage =
+
+    0.7820
+    0.7960
+
+>> paracilength
+
+paracilength =
+
+    5.5435
+    5.7166
+
+>> nonparacilength
+
+nonparacilength =
+
+    6.2655
+    6.6375
+
+
+
+
     
 df=3 theta=-3 T=100
 >> para_es_coverage
